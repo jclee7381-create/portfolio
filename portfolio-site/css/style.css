@@ -1,0 +1,25 @@
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;color:#222;line-height:1.6;background:#fff}
+ul{list-style:none}a{text-decoration:none;color:inherit}
+.inner{width:1200px;max-width:calc(100% - 40px);margin:0 auto}
+.section{padding:100px 0}.section-title{font-size:38px;font-weight:700;text-align:center;margin-bottom:18px}.section-desc{text-align:center;color:#666;margin-bottom:50px}
+.header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.96);border-bottom:1px solid #e5e5e5;backdrop-filter:blur(8px)}
+.header .inner{height:80px;display:flex;justify-content:space-between;align-items:center}.logo a{font-size:26px;font-weight:800;letter-spacing:1px}.gnb ul{display:flex;gap:28px}.gnb a{font-size:16px;font-weight:600;transition:.3s}.gnb a:hover{color:#1f6fff}
+.visual{background:linear-gradient(135deg,#f7faff 0%,#eef4ff 100%);padding:140px 0 120px}.visual-grid{display:grid;grid-template-columns:1fr 380px;align-items:center;gap:60px}
+.visual-text .sub{display:inline-block;padding:8px 16px;border-radius:999px;background:#dfeaff;color:#1f4db8;font-size:14px;font-weight:700;margin-bottom:20px}.visual-text h2{font-size:54px;line-height:1.2;margin-bottom:20px}.visual-text p{font-size:18px;color:#555;margin-bottom:30px}
+.btn-group{display:flex;gap:14px;flex-wrap:wrap}.btn{display:inline-block;padding:14px 24px;border-radius:10px;font-weight:700;transition:.3s}.btn-primary{background:#111;color:#fff}.btn-primary:hover{background:#1f6fff}.btn-outline{border:1px solid #ccc;background:#fff}.btn-outline:hover{border-color:#1f6fff;color:#1f6fff}
+.visual-card{background:#fff;border-radius:24px;padding:30px;box-shadow:0 20px 50px rgba(0,0,0,.08)}
+.profile-thumb,.project-thumb{display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#a7c7ff,#dfeaff);color:#1f4db8;font-weight:700}
+.profile-thumb{width:120px;height:120px;border-radius:50%;margin:0 auto 20px;text-align:center;padding:12px}
+.placeholder-label{font-size:12px;line-height:1.4}
+.visual-card h3{text-align:center;font-size:28px;margin-bottom:10px}.visual-card>p{text-align:center;color:#666;margin-bottom:25px}
+.mini-info{display:grid;grid-template-columns:1fr 1fr;gap:14px}.mini-info li{background:#f8f9fb;border-radius:14px;padding:16px;text-align:center;font-size:14px;color:#555}.mini-info strong{display:block;font-size:20px;color:#111;margin-bottom:6px}
+.about-wrap{display:grid;grid-template-columns:1fr 1fr;gap:30px}.about-box{background:#fff;border:1px solid #ececec;border-radius:20px;padding:30px}.about-box h4{font-size:24px;margin-bottom:16px}.about-box p{color:#555}
+.skills{background:#fafbfd}.skill-list{display:flex;flex-wrap:wrap;gap:16px;justify-content:center}.skill-list li{padding:14px 22px;border-radius:999px;background:#111;color:#fff;font-weight:700}
+.projects-list{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}.project-card{border:1px solid #ececec;border-radius:20px;overflow:hidden;background:#fff;transition:transform .3s,box-shadow .3s}.project-card:hover{transform:translateY(-8px);box-shadow:0 18px 36px rgba(0,0,0,.08)}
+.project-thumb{height:220px}.project-thumb span{background:rgba(255,255,255,.8);padding:8px 12px;border-radius:999px;font-size:13px}.project-card .text{padding:24px}.project-card h4{font-size:24px;margin-bottom:10px}.project-card p{color:#666;margin-bottom:16px}.tags{display:flex;flex-wrap:wrap;gap:8px}.tags span{padding:8px 12px;border-radius:999px;background:#f4f6f9;font-size:13px;color:#444}
+.contact{background:#111;color:#fff}.contact .section-desc{color:rgba(255,255,255,.7)}.contact-box{max-width:780px;margin:0 auto;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:40px;text-align:center}.contact-box p{font-size:18px;margin-bottom:12px}
+.footer{padding:28px 0;text-align:center;border-top:1px solid #222;background:#0a0a0a;color:rgba(255,255,255,.7);font-size:14px}
+@media (max-width:1024px){.visual-grid,.about-wrap,.projects-list{grid-template-columns:1fr}}
+@media (max-width:768px){.header .inner{height:auto;padding:20px 0;flex-direction:column;gap:16px}.gnb ul{flex-wrap:wrap;justify-content:center}.visual{padding:100px 0 80px}.visual-text h2{font-size:36px}.section{padding:70px 0}.section-title{font-size:30px}}

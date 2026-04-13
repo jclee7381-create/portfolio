@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>이종춘 퍼블리싱 포트폴리오 | GitHub Pages</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;line-height:1.6;color:#222;background:linear-gradient(180deg,#f7f9fc 0%,#ffffff 100%)}
+    a{text-decoration:none;color:inherit}
+    .wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+    .hero{padding:100px 0 70px;text-align:center}
+    .hero .badge{display:inline-block;padding:8px 16px;border-radius:999px;background:#e8f0ff;color:#2056d6;font-weight:700;font-size:14px;margin-bottom:18px}
+    .hero h1{font-size:52px;line-height:1.2;margin-bottom:18px}
+    .hero p{max-width:760px;margin:0 auto;color:#555;font-size:18px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding:0 0 80px}
+    .card{background:#fff;border:1px solid #ececec;border-radius:24px;overflow:hidden;box-shadow:0 16px 34px rgba(0,0,0,.06);transition:.3s}
+    .card:hover{transform:translateY(-8px);box-shadow:0 20px 40px rgba(0,0,0,.1)}
+    .thumb{height:220px;background:linear-gradient(135deg,#dce8ff,#f7faff);display:flex;align-items:center;justify-content:center;color:#4d6bb3;font-weight:700}
+    .text{padding:26px}
+    .text h2{font-size:28px;margin-bottom:10px}
+    .text p{color:#666;margin-bottom:18px;min-height:72px}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+    .tags span{padding:8px 12px;background:#f3f6fb;border-radius:999px;font-size:13px;color:#445}
+    .btns{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:12px 18px;border-radius:10px;font-weight:700}
+    .btn-primary{background:#111;color:#fff}
+    .btn-outline{border:1px solid #d9d9d9;background:#fff}
+    .guide{background:#111;color:#fff;padding:60px 0;margin-top:10px}
+    .guide h3{font-size:30px;margin-bottom:18px}
+    .guide ol{max-width:880px;margin:0 auto;padding-left:20px;color:rgba(255,255,255,.86)}
+    .guide li{margin-bottom:10px}
+    .footer{padding:28px 0;text-align:center;color:#777;font-size:14px}
+    @media (max-width: 1024px){.grid{grid-template-columns:1fr}.hero h1{font-size:40px}.text p{min-height:auto}}
+    @media (max-width: 768px){.hero{padding:70px 0 50px}.hero h1{font-size:32px}.hero p{font-size:16px}}
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="wrap">
+      <span class="badge">퍼블리싱 취업 제출용 포트폴리오</span>
+      <h1>이종춘 퍼블리싱 포트폴리오</h1>
+      <p>실제 제출용으로 정리한 포트폴리오 메인입니다. GitHub Pages에 바로 배포할 수 있으며, 루트 메인 페이지에서 각 프로젝트로 이동할 수 있게 구성했습니다.</p>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <section class="grid">
+      <article class="card">
+        <div class="thumb">portfolio-site</div>
+        <div class="text">
+          <h2>이종춘 자기소개 포트폴리오</h2>
+          <p>면접 제출용으로 활용하기 좋은 개인 브랜딩 중심 사이트입니다. 자기소개, 기술, 프로젝트, 연락처 구조로 정리했습니다.</p>
+          <div class="tags"><span>브랜딩</span><span>반응형</span><span>포트폴리오</span></div>
+          <div class="btns">
+            <a class="btn btn-primary" href="./portfolio-site/">페이지 보기</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="thumb">shopping-mall</div>
+        <div class="text">
+          <h2>쇼핑몰 메인 페이지</h2>
+          <p>상품 카드, 카테고리, 프로모션, 후기 섹션까지 포함한 실무형 UI 중심 템플릿입니다.</p>
+          <div class="tags"><span>이커머스</span><span>상품카드</span><span>UI</span></div>
+          <div class="btns">
+            <a class="btn btn-primary" href="./shopping-mall/">페이지 보기</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="thumb">lecture-platform</div>
+        <div class="text">
+          <h2>교육 플랫폼 랜딩</h2>
+          <p>강의 서비스 구조를 보여주는 랜딩 페이지로, 카테고리·강의목록·후기·강사소개 섹션을 담았습니다.</p>
+          <div class="tags"><span>교육서비스</span><span>랜딩페이지</span><span>정보구조</span></div>
+          <div class="btns">
+            <a class="btn btn-primary" href="./lecture-platform/">페이지 보기</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <section class="guide">
+    <div class="wrap">
+      <h3>GitHub Pages 배포 방법</h3>
+      <ol>
+        <li>이 폴더 전체를 새 GitHub 저장소의 루트에 업로드합니다.</li>
+        <li>저장소 설정에서 <strong>Pages</strong>를 열고 배포 브랜치를 <strong>main</strong>, 폴더를 <strong>/(root)</strong>로 선택합니다.</li>
+        <li>몇 분 뒤 생성된 주소로 접속하면 루트 메인 페이지와 3개 프로젝트가 함께 열립니다.</li>
+        <li>각 프로젝트 이미지는 해당 폴더의 <strong>images</strong> 안에 넣으면 바로 교체됩니다.</li>
+      </ol>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap">© 2026 Lee Jong Chun Portfolio</div>
+  </footer>
+</body>
+</html>
